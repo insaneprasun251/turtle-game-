@@ -22,7 +22,7 @@ for step in range(16):
   pendown()
   # vertical line with dash and stroke of equal lenghts 
   for dash in range(0,150,10):
-    if dash%20 == 0:
+    if (dash%20) == 0:
       forward(10)
       penup()
     else:
